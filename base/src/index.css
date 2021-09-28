@@ -1,0 +1,67 @@
+.card__img {
+  weight: 100px;
+  height: 100px;
+
+  margin-right: 15px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+  padding: 10px;
+
+  background-color: rgb(48, 85, 85);
+
+  width: 90%;
+
+  border-radius: 10px;
+}
+
+body,
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: roboto;
+}
+
+input{
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+button {
+  width: 30px;
+  height: 20px;
+
+  margin-left: 10px;
+}
+
+form {
+  width: 200px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+span {
+  margin: 0px 10px;
+}
+.card__space{
+  font-size: larger;
+}
+
+.card__artist{
+  color: rgb(209, 197, 197);
+  margin-left: 20px;
+}
